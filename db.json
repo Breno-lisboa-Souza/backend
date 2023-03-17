@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-NovoPost",
+      "author": "Breno"
+    },
+    [
+      {
+        "id": 3,
+        "title": "json-novopost2",
+        "author": "BrenoDnv"
+      }
+    ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "comentário 1.1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "comentário 2.1",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "comentário 3.1",
+      "postId": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
